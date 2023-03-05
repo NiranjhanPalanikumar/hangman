@@ -48,3 +48,7 @@ The addition to this file from milestone_3.py file are as follows:
 
 3. If the guessed letter is not present in the word, 1 life is subtracted from the total lives.
 
+## milestone_5.py description
+This python file is to put everything together in a single file, and adding a function "play_game()" that strats the game with the initial information. 
+
+This function takes in argument the "word_list" which is a list of words from which the computer selects one. The "num_lives" is the number of wrong attempts the user can have, which has a default value of 5 and is adjustable if necessary. If the user id able to guess all the letters of the word within the num_lives count, the user wins else loses the game.
